@@ -1,0 +1,753 @@
+body {
+  background-color: white;
+}
+
+
+.main-form-control {
+  width: 100%;
+  // margin-left: -49px;
+}
+
+
+.Home {
+  // display: flex;
+  // background-color: #000;
+  background-color: rgb(0 0 0 / 0%);
+
+}
+
+
+.button-register{
+  &:hover{
+    background-color:rgba(128, 128, 128, .2);
+    // color: rebeccapurple;
+  }
+}
+
+
+
+
+.input-navbar {
+  border: 10px solid black;
+}
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 16.6666667%;
+  height: 65px;
+  z-index: 1;
+  background-color: #fff;
+  // height: 20px;
+  // width: 100%;
+}
+
+.nava {
+  // background-color: #000;
+  // position: fixed;
+  z-index: 1;
+
+}
+
+.form-control {
+  // width: 100%;
+  // padding-left: -50px;
+  // position: fixed;
+  // height: 55px;
+  z-index: 1;
+
+}
+
+.btn {
+  // position: fixed;
+  z-index: 1;
+  right: 2px;
+  margin: 0px 0px;
+
+}
+
+
+// .importan-rightside::-webkit-scrollbar-track {
+//   background-color: rebeccapurple;
+// }
+
+.importan-rightside {
+  position: fixed;
+  top: 65px;
+  bottom: 0;
+  right: 0;
+  width: 17.6666667%;
+  background-color: white;
+
+}
+
+
+
+// .bemusic::-webkit-scrollbar{
+//   width: 150px;
+// }
+
+.leftpages::-webkit-scrollbar-track{
+background-color: #000;
+}
+
+.btn2-header {
+  z-index: 1;
+  right: 128px;
+
+}
+
+
+
+.yourmusic {
+
+  margin-top: 40px;
+  // display: flex;
+  // justify-content:first baseline;
+
+}
+
+.platlist {
+  margin-top: 100px;
+  display: flex;
+  // flex-direction: column;
+  // justify-content: space-around;
+}
+
+.leftpages {
+  // width: 16.8%;
+  height: 100vh;
+  // position: fixed;
+  background-color: rgb(246 248 250);
+
+
+}
+
+.icon-left-side{
+  // position: absolute;
+  // margin-top: 6px;
+  // left: 76px;
+  // display: flex;
+
+  // justify-content:space-around;
+
+
+}
+
+.bemusic{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+
+i {
+  color: #242424;
+}
+
+.leftside {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 16.666667%;
+  // height: 10%;
+
+  // padding: 0px;
+
+
+
+  // left: 0;
+  // width: 15%;
+  // border-right: 2px solid  red;
+  // background-color: rgb(246 248 250);
+}
+
+
+.nav-link{
+  // padding-right: -40px;
+
+  // margin-left: 20px;
+  // position: absolute;
+  // display: flex;
+  // justify-content: space-around;
+
+
+  &:hover{
+    background-color: gainsboro;
+    color: black;
+  }
+
+ }
+
+
+
+
+.img-left-side{
+  // position: absolute;
+  // left: 18px;
+  // top: 40px;
+  width: 35px;
+  height: 35px;
+  border-radius: 8%;
+  // display: flex;
+  // justify-content:flex-start;
+
+
+}
+
+.qoutof-h1{
+  // display: flex;
+  // justify-content:flex-start;
+  margin-top: -40px;
+  margin-left: 40px;
+}
+
+
+
+
+.rightside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  // top: 30px;
+  // position: absolute;
+  // position: fixed;
+  // right: 0px;
+  // height: 250px;
+  // width: 18%;
+  z-index: 1;
+  // height:300px ;
+  overflow-y: scroll;
+  border-right: 0px solid gray;
+  // background-color: rgb(244, 244, 245);
+}
+
+
+.platlist {
+  position: relative;
+  display: inline-block;
+
+}
+
+.platlist-link {
+  display: inline-block;
+  position: absolute;
+  right: -105px;
+  top: 8px;
+}
+
+
+.h6-photo-rightside {
+  // display: inline;
+  margin-left: 3%;
+  margin-top: 2%;
+  flex-direction: column;
+  justify-content: space-around;
+  display: inline-block;
+  position: absolute;
+  // bottom: 10px;
+  // display: inline-block;
+  // overflow: auto;
+}
+
+.photo-rightside{
+  padding: 6px;
+  // background-color: rgb(246 248 250);
+  background-color: rgb(255 255 255);
+
+
+  // background-color: rgb(0 0 0 / 0%);
+  // be-background: 255 255 255;
+  display: flex;
+  // flex-direction: column;
+  justify-content: space-around;
+  display: inline-block;
+
+
+}
+
+
+
+.div-photo-rightside {
+  display: inline-block;
+  // position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.div-photo-rightside div {
+  // position: fixed;
+  bottom: 1px;
+  right: 1px;
+  z-index: 1;
+  width: 265px;
+  height: 100px;
+
+}
+
+
+
+
+.link-photo-rightside {
+
+  margin-left: 3%;
+  margin-top: 21px;
+  // padding-top: -40px;
+
+  display: inline-block;
+  color: black;
+  // display: inline-block;
+  position: absolute;
+
+  &:hover{
+    color: gray;
+  }
+}
+
+.img-photo-rightside {
+  width: 50px;
+  height: 50px;
+  border-radius: 5%;
+  // margin-left: -18%;
+  background-color: white;
+
+  // background-color: rgb(246 248 250);
+
+}
+
+.img-photo-rightside:hover {
+  background-color: white;
+
+}
+
+.photo-rightside:hover .img-photo-rightside {
+  background-color: black;
+  color: black;
+}
+
+.div-photo-rightsidefoot {
+  // width: 50%;
+  // height: 4px;
+  position: relative;
+
+
+  // z-index: 100px;
+}
+
+.img-photo-rightsidefoot {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: -335px;
+  right: 2px;
+
+}
+
+
+
+
+.popularalbum {
+  // margin-top: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+  // position: relative;
+  display: flex;
+
+
+  // overflow: auto;
+}
+
+
+.popularalbum2 {
+  // margin-top: 50px;
+  margin-left: 5px;
+  margin-top: 50px;
+  // position: relative;
+  display: flex;
+
+
+  // overflow: auto;
+}
+
+
+.popularalbum-2 {
+
+  // margin-top: 30px;
+  // margin-left: 20px;
+  // position: relative;
+  display: flex;
+
+  // overflow: auto;
+
+
+
+}
+
+
+.popularalbum-2-h3 {
+  // margin-left: -1px;
+  // left: 0px;
+  // font-size: xx-large;
+
+  margin-bottom: -10px;
+
+}
+
+
+
+
+
+.imagpopular-top {
+  padding-top: 20px;
+}
+
+.arrowphoto-album {
+  width: 50px;
+  height: 50px;
+  background-color: ghostwhite;
+  color: aliceblue;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.fas-arrowphoto-album {
+  color: black;
+  position: absolute;
+  top: 6px;
+  left: 21px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.item-imgtop {
+  width: 250px;
+  height: 250px;
+
+}
+
+.nameshee5 {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  top: 70px;
+  color: #000;
+  right: -180px;
+}
+
+.nameshee5 h6 {
+  display: inline-block;
+}
+
+.nameshee5 p {
+  left: 70px;
+  top: 25px;
+}
+
+.container {
+  // background-color: #000;
+  padding: 2rem;
+}
+
+.container2 {
+  padding: 4rem;
+  // background-color: #000;
+  margin-left: 5%;
+  max-width: 100%;
+
+  margin-top: -25px;
+
+}
+
+.slider-wrapper {
+  // position: relative;
+  // max-width: 100%;
+
+
+  // right: 80px;
+}
+
+img{
+  border-radius: 2%;
+}
+
+
+
+.slider {
+  display: flex;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  aspect-ratio: 16/9;
+  // background-color: white;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  // box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+}
+
+
+
+
+.slider::-webkit-scrollbar {
+  width: 0;
+  // margin-left: 20px;
+}
+
+.slider-wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+
+
+.slider-divmargin {
+    // height: 200px;
+
+    position: relative;
+
+
+    // margin: -13px 5px;
+
+
+    margin-right: 20px;
+    // width: 150px;
+    // height: 150px;
+
+    // background-image: url(/assets/Qur\'an_and_Rehal.jpg);
+    // background-image: url(/assets/Qur\'an_and_Rehal.jpg);
+    // &:hover{
+    //   background-color: #000;
+    // }
+
+
+
+
+}
+
+
+
+
+
+// .hover-img{
+//   width: 150px;
+//     height: 150px;
+
+//   &:hover{
+//     background-color: #000;
+//     z-index: 20;
+//   }
+
+// }
+
+
+
+
+.slider-divmargin img {
+
+  z-index: -4;
+
+}
+
+
+
+.text {
+  position: relative;
+
+
+
+
+
+}
+
+
+
+.text-h3 {
+  position: absolute;
+
+  bottom: 0px;
+  background-color: aquamarine;
+  color: #000;
+  padding: 30% 40%;
+
+  width: 300px;
+  height: 200px;
+  visibility: hidden;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.icon-photoalbum {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  bottom: 55px;
+  left: 15px;
+
+}
+
+.icon-slider-divmargin {
+  position: absolute;
+
+
+  bottom: 7px;
+  left: 15px;
+
+  font-size: xx-large;
+
+  color: white;
+}
+
+.arrow-right{
+  position: absolute;
+  right: 35px;
+}
+
+.arrow-left{
+  position: absolute;
+  right: 70px;
+}
+
+
+.album-h4 {
+  position: absolute;
+  bottom: 4px;
+  // top: 30px;
+  // display: inline-block;
+  // margin-top: 50px;
+
+}
+
+.album-p {
+  position: absolute;
+  // bottom: -20px;
+  left: 5px;
+  bottom: -30px;
+  // margin-top: 80px;
+
+
+
+}
+
+.PopularTracks h4 {
+  margin-top: 70px;
+}
+
+.PopularTracks{
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+
+.populartrack-photo {
+  // padding-left: 30px;
+  margin-left: 30px;
+}
+
+.span-title-table{
+  margin-left:30px ;
+  display: inline-block;
+}
+
+
+.table {
+  position: relative;
+  // right: 500px;
+  background-color: white;
+  // background-color: rgb(246 248 250);
+
+  margin-left: 15px;
+  margin-top: 4%;
+
+
+}
+
+.icon-table{
+  position: absolute;
+  // margin-right: 50px;
+  right: 22px;
+  font-size: x-large;
+  top: 24px;
+}
+
+
+.icon-table-love{
+  position: absolute;
+  right: 75px;
+  top: 18px;
+}
+
+
+
+
+.time-table{
+  position: absolute;
+  right: 28px;
+}
+
+.section-gener-imag{
+
+
+}
+
+.img-final-section{
+  width: 105%;
+  // height: 120px;
+  border-radius: 4%;
+  margin: 10px;
+
+  // text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // margin-bottom: 0px;
+  position: relative;
+}
+
+.h4-quranKareem{
+
+  position: absolute;
+  top: 45%;
+  left: 40px;
+  // text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  // margin-top: -120px;
+color: #fff;
+}
+
+
+
+.geners{
+  margin-top: 15px;
+  margin-left: 9px;
+}

@@ -1,0 +1,218 @@
+
+.collectionlist{
+  margin-top: -1%;
+  // width: 80%;
+  margin-left:-1% ;
+  // background-color: antiquewhite;
+}
+
+.content-collectionlist{
+  position: relative;
+  display: grid;
+}
+
+.content-collectionlist-img{
+  border-radius: 4%;
+  height: 250px;
+}
+
+.h5-telawat-atera{
+  display: inline-block;
+  // margin-top: -35%;
+  margin-left: 2%;
+  margin-top: 1%;
+  font-size: 30px;
+
+  // font-style: oblique;
+  // left: 25%;
+  position: absolute;
+}
+
+.img-meshary{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 2.5%;
+  margin-top: -10%;
+}
+
+.p-meshary{
+  display: block;
+  position: absolute;
+  // top: 6%;
+  bottom: 64%;
+  left: 38%;
+  // margin-top: 10%;
+  // margin-left: 55%;
+}
+
+.track-collectionlist{
+  display: inline-block;
+  margin-left: -4%;
+  margin-top: -15%;
+}
+
+.icon-text{
+
+  position: relative;
+  left: 33%;
+  width: 10.5%;
+  height: 40px;
+  margin: 5px 2px;
+  // border-radius: 40%;
+  // border-left: 50%;
+  // border-top-width: 5px;
+  // border-top-left-radius: 15%;
+  // border-bottom-left-radius: 15%;
+  // border-start-start-radius:20% ;
+  // background-color: gainsboro;
+  // background-color: rgb(221, 218, 218);
+  font-size: small;
+  // top:45%;
+  bottom: 80px;
+  // margin-top: -75px;
+  border: 1px solid;
+  // text-align: center;
+}
+
+// .buton-play-div{
+//   display: inline-block;
+
+
+
+//   position: relative;
+
+//   left: 290px;
+//   top: 0px;
+//   border-radius: 40%;
+
+//   font-size: small;
+//   bottom: 80px;
+//   border: 0px;
+
+// }
+
+
+
+.text-icon-play{
+  position: absolute;
+  // color: white;
+  top: 5px;
+  right: 25%;
+  font-size: 16px;
+  color: #000;
+}
+
+.buton-gren-text{
+  color: white;
+}
+
+.buton-gren{
+
+
+  &:hover{
+    background-color: rgba(162, 246, 162,.9);
+
+    // transform: scaleX(0);
+    border: 0px;
+
+  }
+}
+
+
+.icon-play{
+  // background-color: white;
+  position: absolute;
+  left: 18px;
+  font-size: 16px;
+  top: 11px;
+  // background-color: green;
+  // &:hover{
+  //   background-color: gainsboro;
+
+  // }
+}
+
+.single-icons{
+
+  position: relative;
+  // right: -20px;
+
+}
+
+.single-icons-alb{
+
+  position: absolute;
+  right: -.5%;
+  // left: 4%;
+  top: -115px;
+
+  // top:53%;
+  font-size: 15px;
+  // margin: 10px 10px;
+
+}
+
+.single-icons-play{
+  position: absolute;
+  right: 5%;
+  top: -117px;
+  font-size: 15px;
+}
+
+.content-two-collectionlist{
+
+  margin-top: 100px;
+
+  margin-left: 25px;
+
+}
+
+
+.table-final-parag{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+
+// .table-final-parag{
+//   margin-left: 40px;
+// }
+
+
+
+.table-final-icon1{
+  position: absolute;
+  right:110px;
+  text-align: center;
+  margin-top: -17px;
+  // bottom: 295px;
+  display: inline-block;
+  // margin-top: -140px;
+  // padding-right:-20px ;
+
+}
+
+.table-final-icon2{
+  position: absolute;
+  right:50px;
+  margin-top: -17px;
+
+  // bottom: 295px;
+  display: inline-block;
+}
+
+.table-final-icon3{
+
+  position: absolute;
+  right:130px;
+  margin-top: -17px;
+
+  // bottom: 295px;
+  display: inline-block;
+
+}
+
+.hash{
+  padding-left: 25px;
+}

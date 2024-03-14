@@ -1,0 +1,209 @@
+
+
+.admin{
+
+
+  width: 100%;
+    height: 350px;
+
+    position: relative;
+
+
+
+
+  .content-admin{
+
+  width: 90%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+
+
+  .div-img-admin{
+    .img-admin{
+      width: 95%;
+      height: 40%;
+      // padding-top: -25%;
+      margin-left: 10%;
+      border-radius: 2%;
+
+    }
+
+  }
+
+
+
+
+  .h4-admin
+{
+  margin-top: 0%;
+  margin-left: 7%;
+
+}
+a{
+  margin-left: 7%;
+  display: inline;
+
+}
+
+
+.admin-follow{
+  position: absolute;
+  top: 25%;
+  left: 32%;
+  text-align: center;
+  width: 15%;
+  border: none;
+  // height: 10%;
+  color: gray;
+  text-align: center;
+  background-color: rgb(0 0 0 / 12%);
+  // border-radius: 40%;
+  &:hover{
+    color: black;
+  }
+
+}
+
+
+.quran-admin{
+
+  width: 66%;
+  height: 30px;
+  background-color: rgba(245, 245, 245, .7);
+  position: absolute;
+  top: 45%;
+  margin-left: 6%;
+
+}
+
+
+.quran-admin2{
+
+  width: 20%;
+  height: 30px;
+  background-color: rgba(245, 245, 245, .7);
+  position: absolute;
+  top: 60%;
+  margin-left: 6%;
+
+
+}
+
+// .quran-admin2 a{
+//   position: absolute;
+// }
+
+
+
+  }
+
+
+
+
+
+
+}
+
+.tracks-admin{
+
+  width: 100%;
+  margin-left: 5%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+
+}
+
+
+
+
+.no-tracks{
+
+  width: 99%;
+  height: 30%;
+  margin-top: 5%;
+
+  text-align: center;
+  font-size: xx-large;
+
+}
+
+
+
+
+
+
+
+// .content-admin{
+
+//   width: 90%;
+//   display: grid;
+//   grid-template-columns: 30% 70%;
+// }
+
+// .img-admin{
+//   width: 80%;
+//   height: 40%;
+//   padding-top: 45%;
+//   border-radius: 3%;
+
+// }
+
+// .h4-admin
+// {
+//   margin-top: 15%;
+// }
+
+// .admin-follow{
+//   position: absolute;
+//   top: 40%;
+//   text-align: center;
+//   height: 30px;
+//   background-color: rgba(245, 245, 245, .7);
+//   border-radius: 40%;
+
+// }
+
+// .quran-admin{
+//   width: 80%;
+//   height: 30px;
+//   background-color: rgba(245, 245, 245, .7);
+//   position: absolute;
+//   top: 60%;
+// }
+
+// .quran-admin2{
+
+//   width: 680px;
+//   height: 30px;
+//   background-color: rgba(245, 245, 245, .7);
+//   position: absolute;
+//   top: 48%;
+
+// }
+
+// .quran-admin2 a{
+//   position: absolute;
+// }
+
+// .tracks-admin{
+
+//   width: 100%;
+
+//   position: absolute;
+
+
+//   display: grid;
+//   grid-template-columns: 15% 15% 15% 15% 15% 15%;
+
+// }
+
+// .no-tracks{
+
+//   width: 99%;
+//   height: 30%;
+
+//   text-align: center;
+//   font-size: xx-large;
+
+// }
